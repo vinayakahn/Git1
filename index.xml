@@ -1,0 +1,44 @@
+<?xml <?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <pages>
+      <element>
+         <elements>
+            <element>
+               <name>question1</name>
+               <title>Name</title>
+               <type>text</type>
+            </element>
+            <element>
+               <inputType>email</inputType>
+               <isRequired>true</isRequired>
+               <name>question2</name>
+               <placeHolder>Enter your Email</placeHolder>
+               <title>Email</title>
+               <type>text</type>
+               <validators>
+                  <element>
+                     <type>email</type>
+                  </element>
+               </validators>
+            </element>
+            <element>
+               <inputType>password</inputType>
+               <isRequired>true</isRequired>
+               <name>question3</name>
+               <placeHolder>Enter your Password</placeHolder>
+               <size>6</size>
+               <title>Password</title>
+               <type>text</type>
+               <validators>
+                  <element>
+                     <maxValue>6</maxValue>
+                     <minValue>4</minValue>
+                     <type>numeric</type>
+                  </element>
+               </validators>
+            </element>
+         </elements>
+         <name>page1</name>
+      </element>
+   </pages>
+</root>?>
